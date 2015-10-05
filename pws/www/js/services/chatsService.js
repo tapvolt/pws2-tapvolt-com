@@ -1,6 +1,4 @@
-angular.module('pws.services', [])
-
-.factory('Chats', function() {
+MyApp.factory('Chats', function() {
   // Might use a resource here that returns a JSON array
 
   // Some fake testing data

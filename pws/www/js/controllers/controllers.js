@@ -1,6 +1,10 @@
-angular.module('pws.controllers', [])
+MyApp
 
-.controller('DashCtrl', function($scope) {})
+.controller('DashCtrl', function($scope, DataService) {
+        DataService.init();
+
+        //$scope.city =
+})
 
 .controller('ChatsCtrl', function($scope, Chats) {
   // With the new view caching in Ionic, Controllers are only called
